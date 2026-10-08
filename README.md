@@ -2,7 +2,7 @@
 
 基于 **LangGraph** 的 Supervisor + 专业子 Agent 架构，覆盖意图路由、RAG 问答、工单工具闭环、只读数据分析、记忆、安全、评测与 Docker 部署。默认 `MODEL_PROVIDER=mock`，**无 API Key 也可本地跑通 Demo**。
 
-## 简历一句话（示例）
+## 干了什么一句话说完（示例）
 
 基于 LangGraph 构建多智能体企业知识服务系统，实现意图路由、RAG 检索、工具调用工单闭环与多轮记忆；支持 Mock/OpenAI/Ollama 切换与 Docker 一键部署。（评测指标请以 `reports/eval_report.md` 实测为准）
 
@@ -96,14 +96,10 @@ docker compose up --build
 
 ## 目录结构
 
-见仓库内 `app/`、`data/`、`frontend/`、`scripts/`。需求设计文档：`简历Agent项目需求设计.txt`。
+见仓库内 `app/`、`data/`、`frontend/`、`scripts/`。
 
 ## 指标占位（实测后替换）
 
 运行 `python scripts/bootstrap.py --eval` 后查看 `reports/eval_report.md`：
 
 - 意图准确率 / 回答准确率 / 拒答合理率 / 工单完成率 / Recall@K
-
-## 许可证
-
-仅供学习与简历项目演示。
